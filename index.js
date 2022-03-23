@@ -40,4 +40,4 @@ function untilNum(num){
 }
 }
 console.log("Q4")
-console.log(untilNum(15))
+untilNum(15)
