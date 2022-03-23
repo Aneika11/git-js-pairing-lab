@@ -47,9 +47,14 @@ untilNum(15);
 function multiply(n,num) {
     return n * num;
 }
-
+console.log("Q5")
 console.log(multiply(2, 4));
 
-
+//Q6
+function add(n,num) {
+    return num + num 
+}
+if()
+}
 
 
