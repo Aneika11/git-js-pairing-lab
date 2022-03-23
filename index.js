@@ -1,13 +1,14 @@
 //Code your solutions in this file
-//Q1
-function fiveToOneHundred() {
-    for (let i = 5; i <= 100; i++){
-        console.log(i)
+function fiveToOneHundred () {
+    for(let i = 5; i <= 100; i++) {
+        console.log(i);
     }
 }
-console.log("Q1")
+console.log("Q1--")
 fiveToOneHundred()
 
+<<<<<<< HEAD
+=======
 //Q2
 function multiplesOfThree(){
     for(let i = 0; i <= 100; i++){ 
@@ -58,3 +59,4 @@ if()
 }
 
 
+>>>>>>> c04edb85597f53282e156cb47c2fdacc323810be
