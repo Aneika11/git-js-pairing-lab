@@ -46,9 +46,27 @@ untilNum(15);
 function multiply(n,num) {
     return n * num;
 }
-
+console.log("Q5")
 console.log(multiply(2, 4));
 
 
+function add(n,num) {
+    if(n == num) {
+       return 3 * (n + num);
+   } else {
+       return n + num
+   }
+}
 
+console.log("Q6");
+console.log(add(9,9));
 
+function isNegative(num){
+    if(num < 1 ){
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log("Q7");
+console.log(isNegative(3))
