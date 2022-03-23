@@ -40,4 +40,16 @@ function untilNum(num){
 }
 }
 console.log("Q4")
-untilNum(15)
+untilNum(15);
+
+//Q5 
+
+function multiply(n,num) {
+    return n * num;
+}
+
+console.log(multiply(2, 4));
+
+
+
+
