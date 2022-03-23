@@ -18,3 +18,20 @@ function multiplesOfThree(){
 }
 console.log("Q2")
 multiplesOfThree()
+
+//Q3
+
+function multiplesOfThreeOrFive() {
+    for(let i = 0; i <= 100; i++) {
+        if(i % 3 === 0 || i % 5 === 0) {
+            console.log(i);
+        }
+    }
+}
+console.log("Q3");
+multiplesOfThreeOrFive();
+
+
+
+
+
