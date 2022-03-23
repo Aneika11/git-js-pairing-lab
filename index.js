@@ -33,5 +33,11 @@ multiplesOfThreeOrFive();
 
 
 
-
-
+//Q4
+function untilNum(num){
+    for(let i = 1; i <= num; i++){
+        console.log(i)
+}
+}
+console.log("Q4")
+console.log(untilNum(15))
