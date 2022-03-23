@@ -70,3 +70,20 @@ function isNegative(num){
 }
 console.log("Q7");
 console.log(isNegative(3))
+
+function triangleArea(a,b){
+    return (a*b)/2;
+}
+console.log("Q8");
+console.log(triangleArea(2,7));
+
+function betweenTwentyAndFourty(num){
+    if(num < 20 || num > 40){
+        return true;
+        
+    } else {
+        return false;
+    }
+}
+console.log('Q9');
+console.log(betweenTwentyAndFourty(4));
